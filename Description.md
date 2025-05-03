@@ -1,69 +1,47 @@
-Heart Disease Prediction App
-App Screenshot
+# Heart Disease Prediction App
 
-A Streamlit web application that predicts heart disease risk using machine learning models, featuring comprehensive data exploration and visualization capabilities.
+## 🚀 Features
 
-Features
-Interactive Prediction Interface: Input patient parameters to assess heart disease risk
+### 🔍 Interactive Tools
+- **Risk Prediction Interface**: Input patient parameters to get instant heart disease risk assessment
+- **Model Performance Dashboard**: Compare accuracy metrics of multiple ML algorithms
+- **Data Explorer**: Interactive visualizations of key health indicators
 
-Model Comparison: Evaluate performance of Random Forest, Logistic Regression, and Decision Tree models
+### 💻 Technical Highlights
+- **Responsive Design**: Fully functional on all device sizes
+- **Dark Mode UI**: Eye-friendly maroon theme with optimal contrast
+- **Real-time Processing**: Instant predictions with model explanations
 
-Data Visualization: Explore distributions of key health indicators
+## 🛠 Technical Stack
 
-Responsive Design: Works on desktop and mobile devices
+| Category          | Technologies Used |
+|-------------------|-------------------|
+| Framework         | Streamlit         |
+| Machine Learning  | Scikit-learn      |
+| Data Processing   | Pandas, NumPy     |
+| Visualization     | Matplotlib, Seaborn |
+| Deployment        | Streamlit Cloud   |
 
-Dark Mode UI: Elegant maroon color scheme with optimal contrast
+## 📊 Dataset
+**UCI Heart Disease Dataset** contains:
+- 303 anonymized patient records
+- 13 clinical features including:
+  - Demographic data (age, sex)
+  - Medical measurements (BP, cholesterol)
+  - Diagnostic results (ECG, exercise test)
+- Binary target variable (presence/absence of heart disease)
 
-Technical Details
-Framework: Streamlit
+## 🛠 Installation
 
-Machine Learning: Scikit-learn (Random Forest, Logistic Regression, Decision Tree)
-
-Data Processing: Feature scaling, missing value imputation, categorical encoding
-
-Visualization: Matplotlib, Seaborn
-
-Deployment: Ready for Streamlit Cloud, Docker, or local hosting
-
-Dataset
-Uses the UCI Heart Disease Dataset containing:
-
-303 patient records
-
-13 clinical features (age, cholesterol, blood pressure, etc.)
-
-Target variable indicating presence of heart disease
-
-Installation
-bash
+```bash
+# Clone repository
 git clone https://github.com/yourusername/heart-disease-predictor.git
+
+# Navigate to project directory
 cd heart-disease-predictor
+
+# Install dependencies
 pip install -r requirements.txt
+
+# Launch application
 streamlit run app.py
-Usage
-Navigate through different sections using the sidebar
-
-Explore dataset statistics and visualizations
-
-Compare model performances
-
-Make predictions using the interactive form
-
-Requirements
-Python 3.8+
-
-Streamlit
-
-Pandas
-
-Scikit-learn
-
-Matplotlib
-
-Seaborn
-
-NumPy
-
-Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss proposed changes.
-

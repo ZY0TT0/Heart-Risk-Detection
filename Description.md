@@ -31,17 +31,4 @@
   - Diagnostic results (ECG, exercise test)
 - Binary target variable (presence/absence of heart disease)
 
-## 🛠 Installation
 
-```bash
-# Clone repository
-git clone https://github.com/yourusername/heart-disease-predictor.git
-
-# Navigate to project directory
-cd heart-disease-predictor
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Launch application
-streamlit run app.py
